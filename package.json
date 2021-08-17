@@ -5,7 +5,11 @@
   "main": ".eslintrc.js",
   "devDependencies": {
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "style-loader": "^1.1.2",
+    "file-loader": "^5.0.2",
+    "css-loader": "^3.4.1",
+    "url-loader": "^3.0.0"
   },
   "scripts": {
     "build": "webpack --progress"
